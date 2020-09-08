@@ -1,0 +1,9 @@
+name: 'Rancher Deploy Action'
+description: 'Action to deploy docker image in rancher'
+author: 'Daniel Yin'
+branding:
+  icon: 'check'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
