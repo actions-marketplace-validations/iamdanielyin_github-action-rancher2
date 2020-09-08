@@ -1,5 +1,5 @@
-name: 'Rancher Deploy Action'
-description: 'Action to deploy docker image in rancher'
+name: 'Rancher2 Deploy Action'
+description: 'Action to deploy docker image in rancher2'
 author: 'Daniel Yin'
 branding:
   icon: 'check'
