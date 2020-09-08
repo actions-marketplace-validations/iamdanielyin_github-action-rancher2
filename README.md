@@ -21,7 +21,8 @@
 ```
 
 ### Parameter Reference
-- `api` workload api url
-- `access_key` rancher user api keys
-- `secret_key` rancher user api keys
-- `data` api result's containers field, only support `name` `image` and `environment` field
+
+- `RANCHER_ACCESS_KEY` rancher user api keys
+- `RANCHER_SECRET_KEY` rancher user api keys
+- `RANCHER_URL` workload api url
+- `RANCHER_DATA` api result's containers field, only support `name` `image` and `environment` field
