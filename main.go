@@ -91,13 +91,13 @@ func formatJson(data []byte) string {
 
 func init() {
 	// 初始化数据
-	api = os.Getenv("PLUGIN_API")
-	accessKey = os.Getenv("PLUGIN_ACCESS_KEY")
-	secretKey = os.Getenv("PLUGIN_SECRET_KEY")
+	api = os.Getenv("RANCHER_URL")
+	accessKey = os.Getenv("RANCHER_ACCESS_KEY")
+	secretKey = os.Getenv("RANCHER_SECRET_KEY")
 }
 
 func main() {
-	data := os.Getenv("PLUGIN_DATA")
+	data := os.Getenv("RANCHER_DATA")
 
 	// 打印参数
 	log.Printf("\n API %s \n ACCESS_KEY: %s\n SECRET_KEY: %s\n DATA: %s", api, accessKey, secretKey, data)
